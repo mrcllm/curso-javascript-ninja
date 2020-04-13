@@ -9,7 +9,7 @@ function somar(a,b){
 }
 
 // Declare uma variável que receba a invocação da função criada acima, passando dois números quaisquer por argumento, e somando `5` ao resultado retornado da função.
-var resulteSum = somar(20, 10) + 5;
+var resultSum = somar(20, 10) + 5;
 
 // Qual o valor atualizado dessa variável?
 35
@@ -24,15 +24,14 @@ Onde VALOR é o novo valor da variável.
 */
 function addValue(){
   newVar = 7;
-  return 'O valor da variável agora é' +' '+ newVar + '.' + 'Onde' + ' ' + newVar  + ' ' + 'é o novo valor da variável'
+  return 'O valor da variável agora é' +' '+ newVar
 }
 
 // Invoque a função criada acima.
  addValue();
 
 // Qual o retorno da função? (Use comentários de bloco).
-//'O valor da variável agora é 7.Onde 7 é o novo valor da variável'
-
+//'O valor da variável agora é 7'
 /*
 Crie uma função com as seguintes características:
 1. A função deve receber 3 argumentos;
